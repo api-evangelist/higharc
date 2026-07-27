@@ -1,9 +1,28 @@
 aid: higharc
 name: Higharc
-description: 'Higharc is a company surfaced as a portfolio company of fifth-wall and added to the API
-  Evangelist network as a stub for enrichment. Sector: construction-tech. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'Higharc is an AI-powered homebuilding software platform founded in 2018 by Marc Minor and
+  headquartered in Durham, North Carolina, with team members across San Francisco and Atlanta. Its
+  design-to-construction cloud platform lets residential builders design homes from scratch, configure
+  market-proven plans, and turn every home into shoppable 3D visuals, plan-based estimating data, and
+  permit-ready construction documents. The product surface spans Studio (design), Config (plan
+  configuration), Showroom (3D visualization), Estimate (material takeoffs), Build (construction
+  documents), Photoreal (renderings), and enterprise AI Estimating, unifying architecture, sales, and
+  construction operations. Higharc is a portfolio company of Fifth Wall and was added to the API
+  Evangelist network for enrichment; as of this profiling it publishes no public developer API,
+  reference, or documentation surface.'
 url: https://raw.githubusercontent.com/api-evangelist/higharc/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://cdn.prod.website-files.com/65880fe1a6298c932c229007/65c5defaa01a14b103d67fb2_about-hero-image.webp
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -12,10 +31,18 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
 - Construction Tech
+- Homebuilding
+- Artificial Intelligence
+- Construction
+- Design
+- 3D Visualization
+- Estimating
+- PropTech
+- SaaS
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +50,20 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/higharc-domain-security.yml
 - type: Website
   url: https://www.higharc.com/
+- type: Blog
+  url: https://www.higharc.com/resources/blog
+- type: Login
+  url: https://app.higharc.com/account/login
+- type: Support
+  url: https://learn.higharc.com/
+- type: PrivacyPolicy
+  url: https://www.higharc.com/legal/privacy
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
